@@ -3,6 +3,7 @@ const { parseQuery } = require('./utils/scraper.utils');
 
 (async () => {
 
+    // TODO: Add query embed urls from dune analytics to export     
     const queryEmbedUrlList = [];
 
     if (queryEmbedUrlList.length === 0) {
